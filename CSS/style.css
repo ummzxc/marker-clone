@@ -1,0 +1,26 @@
+@import "resset.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic"
+}
+
+.media-info-msg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+
+@media screen and (max-width: 500px) {
+    .media-info-msg{
+        display: none;    
+    }
+}
